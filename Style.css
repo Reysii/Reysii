@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:  rgb(104, 226, 130);
+   
+
+}
+.wer{
+    text-align:center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: 20px;
+     background-color: darkblue;
+     padding: 13px;
+     margin: 5.5px;
+     border: solid;
+     margin-left: 40px;
+     margin-right: 40px ;
+}
+.di{
+    background-color:white;
+    text-align: center;
+    font-size: 40px;
+    border: solid;
+    border-color: darkblue;
+    margin-left:50px;
+    margin-right: 900px;
+   padding: 2px;
+    margin-top: 50px;
+    height: 300px;
+}
+.de{
+    background-color: white;
+    text-align: center;
+    font-size: 40px;
+    border: solid;
+    border-color: darkblue;
+    margin-left:900px;
+    margin-right: 50px;
+   padding: 2px;
+    margin-top: -310px;
+    height: 300px;
+}
+marquee{
+    color: darkblue;
+    font-size: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.flex{
+    display: flex;
+    border: solid;
+   
+    background-color: rgba(59, 192, 88, 0.808);
+  }
+ 
+.flex > div {
+    background-color: rgba(24, 168, 79, 0.808);
+    margin: 10px;
+    padding:15px;
+    font-size: 20px;
+    margin-left:100px;
+    height: 10px;
+    font-size:small;
+
+   
+  }
+.e {
+ 
+    border-radius:10px;
+    padding: 5px;
+    margin-left: -10px;
+    margin-right: 50px;
+    margin-top:-28PX;
+    height: 60px;
+}
+.r{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    margin-left:10px;
+    margin-right: 50px;
+    margin-top:1PX;
+    height: 230px;
+    width: 350px;
+   
+}

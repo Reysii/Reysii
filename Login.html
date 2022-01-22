@@ -1,0 +1,87 @@
+<!Doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+<title>Admin Page</title>
+</head>
+
+<style>
+
+    .reys{
+    background-color:rgb(206, 148, 172);
+    }
+    .sel{
+    background-color: rgb(194, 144, 165);
+    border:5px;
+    border-radius:25px;
+    }
+    
+        th{ 
+            color:rgb(13, 13, 14);
+                }
+    </style>
+
+
+<div style="border:rgb(241, 150, 207); ">
+    <br><body style="background: url(back.jpg); backround-position: center center; background-repeat: no-repeat; background-size: cover;">
+    <h1 style="font-size:50px" align="center"><img src="logo.png" style="border-radius:50%" width="90px" height="90px" align="center">
+    <span style="color:rgb(5, 5, 5)"> Wattpad Books </span> </h1>
+    <hr>
+    </div>
+    
+     <syle >
+    <div> 
+        <center>
+        <a href="Home.html"><li style="float:right; display:inline-block; padding:10px; color:black; text-decoration:none; font-size:15px; margin-top: 5px;margin: right 10px;" class="reys"><b>Home Page</b></li></a>
+        <a href="login.html"><li style="float:right; display:inline-block; padding:10px; color:black; text-decoration:none; font-size:15px;margin-top: 5px;margin: right 10px;" class="reys"><b>Log In</b></li></a>
+        <a href="Admin.html"><li style="float:right; display:inline-block; padding:10px; color:black; text-decoration:none; font-size:15px;margin-top: 5px; margin-bottom: 5px; margin: right 10px;" class="reys"><b>Product List</b></li></a>
+        </ul>
+        </div></center>
+    </syle>
+<div>
+
+</div>
+
+<div id="container">
+  <!--Textfield for my username, I'm planning to use username instead of the full name of the user when signing in-->
+  <pre>Username</pre>
+  <input id="uname" type="text" class="textFields" name="" required="" autocomplete="off" >
+  <pre>Password</pre>
+  <input id="psw" type="password" class="textFields" name="" autocomplete="off" required="">
+  <br>
+  <!--To show the password-->
+  <input type="checkbox" id="showPassword" name="" autocomplete="off">
+  <label>Show password</label>
+  <br><br>
+  <!--To create the account-->
+  <input type="submit" id="createAccount"  onclick="login()" value="LOGIN" name="" autocomplete="off">
+</div>
+<p><a href="#">Forgot Password?</a></p>
+<hr>
+<p>Don't have an Account? <a href="#"></a><a href="createAcc.html">Create one here</a>.</p>
+
+</div>
+Reysel forwarded a message
+Reysel Cruz
+<script >
+let uname,upass
+
+function login(){
+  uname=document.getElementById("uname").value
+  upass=document.getElementById("psw").value
+if(uname=="" || upass==""){
+window.alert("Enter Username or Password.");
+}else{
+if(uname=="reysel" && upass=="123"){
+      location.href = "Admin.html";
+  }else{
+      window.alert("Invalid Login");
+  }
+}
+}
+</script>
